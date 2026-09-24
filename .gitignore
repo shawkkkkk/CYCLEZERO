@@ -1,0 +1,35 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# build output
+dist/
+build/
+.next/
+.cache/
+
+# local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# logs
+*.log
+logs/
+
+# local databases / dumps
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+backups/
+
+# editor / OS
+.DS_Store
+.idea/
+.vscode/
+
+# Replit/local runtime artifacts
+.replit.nix.local
